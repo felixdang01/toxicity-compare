@@ -10,23 +10,23 @@ The pipelines used are:
 
 ## **Project Structure**
 
-├── models/
+── models/
 
-│ ├── pipeline_a.py # Pipeline A implementation (RDKit Descriptors + RandomForest)
+  ├── pipeline_a.py # Pipeline A implementation (RDKit Descriptors + RandomForest)
 
-│ └── pipeline_b.py # Pipeline B implementation (ECFP4 + Logistic Regression)
+  └── pipeline_b.py # Pipeline B implementation (ECFP4 + Logistic Regression)
 
-├── utils/
+ ── utils/
 
-│ ├── data_preprocessing.py # Data cleaning and preprocessing functions
+  ├── data_preprocessing.py # Data cleaning and preprocessing functions
 
-│ └── feature_generation.py # Feature generation functions (descriptors, fingerprints)
+  └── feature_generation.py # Feature generation functions (descriptors, fingerprints)
 
-├── main.py # Main script to run the models and compare results
+ ── main.py # Main script to run the models and compare results
 
-├── requirements.txt # Python dependencies for the project
+ ── requirements.txt # Python dependencies for the project
 
-└── README.md # Project overview
+ ── README.md # Project overview
 
 
 ---
