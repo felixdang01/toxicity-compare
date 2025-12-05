@@ -28,6 +28,7 @@ The pipelines used are:
 
  ── README.md # Project overview
 
+ ── Toxicity.ipynib # Run it on Google Colab
 
 ---
 
